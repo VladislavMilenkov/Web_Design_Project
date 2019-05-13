@@ -6,9 +6,6 @@
   color: #99c2ff;
 }
 
-.navbar_text:hover {
-  background-color:
-}
 
 .my_navbar {
   background-color: #333;
@@ -57,4 +54,23 @@
 
 img {
   border-radius: 0.40%;
+}
+
+.slideshow_img {
+  height: 80vh;
+  width: 80vw;
+  box-shadow: 0 0 20px 0;
+}
+
+#slideshow {
+    display: block;
+    margin: 50px auto;
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    padding: 10px;
+}
+
+#slideshow div {
+    position: absolute;
 }
